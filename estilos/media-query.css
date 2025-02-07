@@ -7,7 +7,7 @@
     }
 
     section#login {
-        width: 80vw;
+        width: 80VW;
     }
 
     section#login > div#imagem {
@@ -26,6 +26,16 @@
     
     div#formulario > h1 {
         font-size: 1.7em;
+    }
+
+    div.campo > input {
+        background-color:#7acbdc;
+        font-size: 1em;
+        width: calc(111% - 100px);
+        height: 90%;
+        border: 0px;
+        border-radius: 4px;
+        transform:translateY(-15px);
     }
 }
 
@@ -58,4 +68,13 @@
         font-size: 2em;
     }
     
+    div.campo > input {
+        background-color:#7acbdc;
+        font-size: 1em;
+        width: calc(109% - 100px);
+        height: 90%;
+        border: 0px;
+        border-radius: 4px;
+        transform:translateY(-17px);
+    }
 }
